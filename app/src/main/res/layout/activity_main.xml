@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#64B5F6"
     tools:context=".MainActivity">
 
     <ImageView
@@ -66,8 +65,7 @@
         android:text="LOGIN"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5"
-        android:background="@drawable/color_button"/>
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
 
     <Button
         android:id="@+id/button6"
@@ -76,12 +74,11 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="32dp"
-        android:background="@drawable/color_button"
         android:text="CREATE ACCOUNT"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button4"
-        android:background="@drawable/color_buttondos"/>
+        android:background="@drawable/color_button"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
